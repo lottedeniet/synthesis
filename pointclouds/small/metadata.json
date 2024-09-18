@@ -1,0 +1,133 @@
+{
+	"version": "2.0",
+	"name": "small",
+	"description": "",
+	"points": 0,
+	"projection": "",
+	"hierarchy": {
+		"firstChunkSize": 22, 
+		"stepSize": 4, 
+		"depth": 0
+	},
+	"offset": [2147483647, 2147483647, 2147483647],
+	"scale": [1, 1, 1],
+	"spacing": -33554431.9921875,
+	"boundingBox": {
+		"min": [2147483647, 2147483647, 2147483647], 
+		"max": [-2147483648, -2147483648, -2147483648]
+	},
+	"encoding": "DEFAULT",
+	"attributes": [
+		{
+			"name": "position",
+			"description": "",
+			"size": 12,
+			"numElements": 3,
+			"elementSize": 4,
+			"type": "int32",
+			"min": [inf, inf, inf],
+			"max": [inf, inf, inf],
+			"scale": [1, 1, 1],
+			"offset": [0, 0, 0]
+		},{
+			"name": "intensity",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [inf],
+			"max": [inf],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "return number",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [inf],
+			"max": [inf],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "number of returns",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [inf],
+			"max": [inf],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "classification",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [inf],
+			"max": [inf],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "scan angle rank",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [inf],
+			"max": [inf],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "user data",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [inf],
+			"max": [inf],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "point source id",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [inf],
+			"max": [inf],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "rgb",
+			"description": "",
+			"size": 6,
+			"numElements": 3,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [inf, inf, inf],
+			"max": [inf, inf, inf],
+			"scale": [1, 1, 1],
+			"offset": [0, 0, 0]
+		},{
+			"name": "normals",
+			"description": "unit normal vectors",
+			"size": 3,
+			"numElements": 3,
+			"elementSize": 1,
+			"type": "int8",
+			"min": [inf, inf, inf],
+			"max": [inf, inf, inf],
+			"scale": [0.007874015748031496, 0.007874015748031496, 0.007874015748031496],
+			"offset": [0, 0, 0]
+		}
+	]
+}
