@@ -58,7 +58,7 @@
 		});
 		
 		// Load and add point cloud to scene
-		Potree.loadPointCloud("https://potree.org/pointclouds/lion/metadata.json", "Lion", e => {
+		Potree.loadPointCloud("https://localhost:8443/potree/pointclouds/lion_takanawa/cloud.js", "Lion", e => {
 			let scene = viewer.scene;
 			let pointcloud = e.pointcloud;
 			
